@@ -30,6 +30,12 @@ public class Calculator {
                 numberTwo = sc.nextInt();
                 System.out.println("After multiplication, result ="+(numberOne*numberTwo));
                 break;
+            case 4:
+                System.out.println("Enter two numbers to divide:");
+                numberOne = sc.nextInt();
+                numberTwo = sc.nextInt();
+                System.out.println("After division, result ="+(numberOne/numberTwo));
+                break;
         }
     }
 }

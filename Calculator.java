@@ -6,7 +6,7 @@ public class Calculator {
                 "Enter Option:\n" +
                 "1.Add \n" +
                 "2.Sub \n" +
-                "3.Multiply" +
+                "3.Multiply \n" +
                 "4.Divide ");
         Scanner sc = new Scanner(System.in);
         int option = sc.nextInt();
@@ -36,6 +36,8 @@ public class Calculator {
                 numberTwo = sc.nextInt();
                 System.out.println("After division, result ="+(numberOne/numberTwo));
                 break;
+            default:
+                System.out.println("No such operation");
         }
     }
 }

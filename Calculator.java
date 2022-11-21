@@ -13,7 +13,7 @@ public class Calculator {
                     "0.Exit");
             Scanner sc = new Scanner(System.in);
             int option = sc.nextInt();
-            double numberOne,numberTwo;
+            int numberOne,numberTwo;
             switch (option){
                 case 1:
                     System.out.println("Enter two numbers to add:");
@@ -37,7 +37,16 @@ public class Calculator {
                     System.out.println("Enter two numbers to divide:");
                     numberOne = sc.nextInt();
                     numberTwo = sc.nextInt();
-                    System.out.println("After division, result ="+(numberOne/numberTwo));
+                    try {
+                        int result = numberOne/numberTwo;
+                        System.out.println(result);
+                    }
+                    catch (Exception e){
+                        System.out.println(e.getMessage());
+                    }
+
+
+
                     break;
                 case 0:
                     flag = false;

@@ -16,7 +16,7 @@ public class Calculator {
                 System.out.println("Enter two numbers to add:");
                 numberOne = sc.nextInt();
                 numberTwo = sc.nextInt();
-                System.out.println("After additon, result ="+(numberOne+numberTwo));
+                System.out.println("After addition, result ="+(numberOne+numberTwo));
 
         }
     }

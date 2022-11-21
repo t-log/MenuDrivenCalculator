@@ -24,6 +24,12 @@ public class Calculator {
                 numberTwo = sc.nextInt();
                 System.out.println("After subtraction, result ="+(numberOne-numberTwo));
                 break;
+            case 3:
+                System.out.println("Enter two numbers to multiply:");
+                numberOne = sc.nextInt();
+                numberTwo = sc.nextInt();
+                System.out.println("After multiplication, result ="+(numberOne*numberTwo));
+                break;
         }
     }
 }

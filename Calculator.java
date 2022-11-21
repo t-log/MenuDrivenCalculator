@@ -17,7 +17,13 @@ public class Calculator {
                 numberOne = sc.nextInt();
                 numberTwo = sc.nextInt();
                 System.out.println("After addition, result ="+(numberOne+numberTwo));
-
+                break;
+            case 2:
+                System.out.println("Enter two numbers to subtract:");
+                numberOne = sc.nextInt();
+                numberTwo = sc.nextInt();
+                System.out.println("After subtraction, result ="+(numberOne-numberTwo));
+                break;
         }
     }
 }
